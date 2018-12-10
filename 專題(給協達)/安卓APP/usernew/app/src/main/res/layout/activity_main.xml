@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/re"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="254dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/button_connecttt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/context"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/viewC"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="136dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/receive_message"
+        android:layout_width="158dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/viewS"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="276dp"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ServerS"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="276dp"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
